@@ -35,3 +35,7 @@
     // componentDidUpdate
     // componentWillUnmount
     // Promises were introduced to avoid callback hell 
+
+// When do we break down sections into components? //
+// Benefit of React is component architecture, so it pays to be as flexible as possible 
+// Also: easier to test, easier to optimize for performance
