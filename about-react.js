@@ -39,3 +39,28 @@
 // When do we break down sections into components? //
 // Benefit of React is component architecture, so it pays to be as flexible as possible 
 // Also: easier to test, easier to optimize for performance
+
+// setState is an asynchronous event 
+    // synchronous events happen almost immediately 
+    // asynchronous events take an indefinite amount of time. JS runs the rest of the code then the async event
+
+//STATE => VIEWS => ACTIONS => STATE => on and on 
+
+// If state is simple: 
+
+state = {
+    
+}
+
+// The above is possible because of the Babel compiler that makes it like below.
+
+// If you need to pass props into your state: 
+
+constructor() {
+    super();
+
+    this.state = {
+        example: "example"
+    };
+};
+
