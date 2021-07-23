@@ -13,9 +13,9 @@
     // Angular and Vue use similar principles
 
 // The Job of a React Dev
-// Decide on component architecture 
-// Decide on state and where it livers
-// Decide what changes when state changes
+    // Decide on component architecture 
+    // Decide on state and where it livers
+    // Decide what changes when state changes
 
 // Babel and Webpack translate JS into a form browsers understand 
     // Babel allows us to take our src folder and make sure our JS files work in any browser that runs it. It’s like jQuery back in the day. 
@@ -52,7 +52,7 @@ state = {
     
 }
 
-// The above is possible because of the Babel compiler that makes it like below.
+// (The above is possible because of the Babel compiler that makes it like below.)
 
 // If you need to pass props into your state: 
 
